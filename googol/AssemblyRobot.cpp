@@ -431,6 +431,13 @@ short AssemblyRobot::PointMove(vector<vector<double>> pAng, vector<long> pTime, 
         pos[2] = (pos[2] - lastPos[2])*cPosToImp;
 
         cout << j << ":" << pos[0] << "," << pos[1] << "," << pos[2] << endl;
+//        FILE *fp = fopen("C:/Users/df/Desktop/Googol_point_move/googol/fuck.txt","a");
+//        for(i=0;i<count;i++)
+//        {
+//                fprintf(fp,"%f\t%f\t%f\n",pos[0],pos[1],pos[2]);
+//        }
+//        fclose(fp);
+
         for (i = 0; i < 3; i++)
         {
             if (j == 0)
